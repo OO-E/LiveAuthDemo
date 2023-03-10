@@ -28,9 +28,6 @@ s.swift_version  = '4.2'
 #s.frameworks = 'UIKit'
 
 s.ios.vendored_frameworks  = 'LiveAuthDemoLib.framework'
-
-s.pod_target_xcconfig = {
-    'OTHER_LDFLAGS' => '$(inherited) -ObjC'
-}
+s.exclude_files = "Classes/Exclude"
 #s.dependency 'Alamofire', '4.7'
 end
