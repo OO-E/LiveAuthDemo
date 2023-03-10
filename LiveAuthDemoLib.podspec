@@ -7,11 +7,11 @@
 #
 
 Pod::Spec.new do |s|
-s.name         = 'LiveAuthDemo'
+s.name         = 'LiveAuthDemoLib'
 s.version      = '1.0.0'
 s.summary      = 'liveAuth Demo Projects'
 s.description  = 'desription'
-s.homepage     = 'https://github.com/oneframemobile/networking-ios'
+s.homepage     = 'https://www.google.com'
 
 s.license      = { :type => "MIT", :file => "license" }
 s.author       = { 'Orhan Özgün Ergen' => 'ozgun.ergen@icloud.com' }
