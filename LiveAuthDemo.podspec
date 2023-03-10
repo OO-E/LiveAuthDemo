@@ -27,7 +27,7 @@ s.pod_target_xcconfig = { 'SWIFT_VERSION' => '4' }
 s.swift_version  = '4.2'
 #s.frameworks = 'UIKit'
 
-s.ios.vendored_frameworks  = 'LiveAuthDemo.framework'
+s.ios.vendored_frameworks  = 'LiveAuthDemoLib.framework'
 
 s.pod_target_xcconfig = {
     'OTHER_LDFLAGS' => '$(inherited) -ObjC'
