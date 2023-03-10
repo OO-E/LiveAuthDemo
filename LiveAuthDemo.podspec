@@ -19,7 +19,7 @@ s.platform     = :ios
 
 s.ios.deployment_target = '12.0'
 
-s.source       = { :http => 'https://github.com/OO-E/LiveAuthDemo/raw/main/LiveAuthDemo.zip'}
+s.source       = { :http => 'https://github.com/OO-E/LiveAuthDemo/raw/main/LiveAuthDemoLib.framework.zip'}
 
 #s.exclude_files = "Classes/Exclude"
 s.pod_target_xcconfig = { 'SWIFT_VERSION' => '4' }
